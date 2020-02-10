@@ -1,5 +1,4 @@
-
-class Monster():
+class Monster:
 
     def __init__(self, name, strength_level, scary_skill, limbs):
         self.name = name
@@ -15,6 +14,9 @@ class Monster():
         return 'Where my money Brian'
     def shout_strength(self):
         return 'RRRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAA!!!, mmmeeuuuu'
+    def strength_level(self):
+        return self.strength_level
+
 
 
 
